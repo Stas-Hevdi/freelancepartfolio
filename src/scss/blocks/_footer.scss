@@ -1,0 +1,23 @@
+.footer{
+  background: #171718;
+  text-align: center;
+}
+
+.footer__soc{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+
+  margin-bottom: 27px;
+}
+
+.footer__text{
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0,5px;
+
+
+}

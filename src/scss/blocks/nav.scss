@@ -1,0 +1,40 @@
+.nav{
+  padding: 20px 0;
+  border-bottom: solid 1px #26292D;
+  background-color: #171718;
+  color: #fff;
+}
+
+.naw__row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.nav__list{
+  display: flex;
+  gap: 40px;
+
+}
+
+.nav__list-text{
+  font-size: 16px;
+  font-weight: 500;
+  font-style: var(--font-accent);
+
+  &:hover{
+    content: '';
+    color: #d5d0d0;
+
+  }
+
+}
+
+.nav__list-text-active{
+  border-bottom: solid 3px #5C62EC;
+  color: #ffffff;
+}
+
+
